@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
+  <title>Miggy G. Rivera — ITC C301 Integrative Programming Portfolio</title>
+  <meta name="description" content="Integrative Programming and Technologies 1 (ITC C301) course portfolio for Miggy G. Rivera (BSIT 302I, Jose Rizal University): Prelims, Midterms, Finals, and the Mediseena project.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-name">Miggy G. Rivera</span>
+        <span class="brand-meta">BSIT 302I · ITC C301</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#mediseena">Mediseena</a>
+        <a href="#prelim" data-jump-term="prelim">Prelim</a>
+        <a href="#midterm" data-jump-term="midterm">Midterm</a>
+        <a href="#final" data-jump-term="final">Final</a>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">Light</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page-shell">
+    <!-- HERO / ABOUT -->
+    <section id="top" class="home-intro">
+      <p class="eyebrow">ITC C301 · Integrative Programming and Technologies 1 · Jose Rizal University</p>
+      <h1>Miggy G. Rivera</h1>
+      <p class="role">BSIT 302I · Software Developer · Instructor: Dr. Richard N. Monreal</p>
+
+      <figure class="stage-photo">
+        <img src="Assets/5f8fae58-01c1-41f2-b912-259aebd84245.jfif" alt="Miggy Rivera speaking into a microphone on stage at a general assembly.">
+        <figcaption>Miggy G. Rivera — Jose Rizal University General Assembly · BSIT 302I</figcaption>
+      </figure>
+
+      <div id="about" class="biography">
+        <p class="intro-text">
+          From idea to shipped product—with Artificial Intelligence in the mix. Building software products, backend systems, and AI integrations. This portfolio compiles all Prelims, Midterms, and Finals activities, quizzes, performance tasks, examinations, and our group project, <strong>Mediseena</strong>.
+        </p>
+        <p class="current-practice">
+          Currently interning as an IT Intern at Top Realty Corporation, serving as Vice President of External Affairs and Web Developer Lead at AWS Student Builder Group — JRU, and representing JRU as a Notion Campus Leader.
+        </p>
+
+        <div class="profile-links">
+          <a class="text-link" href="https://www.miggyrivera.tech/" target="_blank" rel="noopener">Portfolio ↗</a>
+          <a class="text-link" href="https://github.com/migsrvr" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="text-link" href="https://www.linkedin.com/in/miggy-rivera-b20047296/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="text-link" href="mailto:rivera.dev.miggy@gmail.com">rivera.dev.miggy@gmail.com</a>
+          <a class="text-link" href="https://www.credly.com/badges/bc2da1a8-73a2-48ed-93cc-ae7772519251/public_url" target="_blank" rel="noopener">Cisco JS 1 Badge ↗</a>
+          <a class="text-link" href="https://www.credly.com/badges/cd183c20-9e35-4321-adc3-2cae2ca48e99/public_url" target="_blank" rel="noopener">Cisco JS 2 Badge ↗</a>
+        </div>
+      </div>
+
+      <div class="stats-strip" aria-label="Coursework summary">
+        <div class="stat-cell">
+          <span class="stat-num" id="statTotal">36</span>
+          <span class="stat-label">Logged outputs</span>
+        </div>
+        <div class="stat-cell">
+          <span class="stat-num" id="statPrelim">19</span>
+          <span class="stat-label">Prelim (Wk 1–6)</span>
+        </div>
+        <div class="stat-cell">
+          <span class="stat-num" id="statMidterm">11</span>
+          <span class="stat-label">Midterm (Wk 7–12)</span>
+        </div>
+        <div class="stat-cell">
+          <span class="stat-num" id="statFinal">6</span>
+          <span class="stat-label">Final (Wk 14–18)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED GROUP PROJECT: MEDISEENA -->
+    <section id="mediseena" class="home-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 · Group 1 Capstone Project · SDG 3</p>
+          <h2>Mediseena</h2>
+        </div>
+        <a class="text-link" href="https://mediseena.vercel.app" target="_blank" rel="noopener">Live site ↗</a>
+      </div>
+
+      <p class="section-lead">
+        <strong>Mediseena: Event-Driven Prescription Digitization with Multimodal AI Extraction and Human Review.</strong>
+        A centralized web platform that converts photographs and scans of handwritten prescriptions into structured, reviewable medical records—combining client-side Canvas preprocessing, Tesseract.js OCR, schema-constrained Google Gemini extraction via Supabase Edge Functions, mandatory human verification, and PostgreSQL row-level security.
+      </p>
+
+      <div class="tag-row">
+        <span>SDG 3 · Good Health and Well-Being</span>
+        <span>React</span>
+        <span>Supabase</span>
+        <span>Google Gemini</span>
+        <span>Tesseract.js</span>
+        <span>Vercel</span>
+      </div>
+
+      <div class="project-diagram" aria-label="Mediseena extraction pipeline">
+        <div class="diagram-stage">
+          <div class="diagram-label">01 · Input &amp; Prep</div>
+          <div class="diagram-detail">JPEG, PNG, WebP, or PDF upload with Canvas enhancement &amp; readability check</div>
+        </div>
+        <span class="diagram-arrow" aria-hidden="true">→</span>
+        <div class="diagram-stage">
+          <div class="diagram-label">02 · OCR &amp; AI Schema</div>
+          <div class="diagram-detail">Tesseract.js text hint + Supabase Edge Function calling Gemini JSON schema</div>
+        </div>
+        <span class="diagram-arrow" aria-hidden="true">→</span>
+        <div class="diagram-stage">
+          <div class="diagram-label">03 · Human Review</div>
+          <div class="diagram-detail">Side-by-side image verification, correction logging, RLS storage &amp; PDF/JSON export</div>
+        </div>
+      </div>
+
+      <div class="sub-block">
+        <p class="sub-label">Group 1 Members · BSIT 302I</p>
+        <ul class="member-grid">
+          <li><strong>Sonny Jr. B. Berdin</strong><span>sonnyjr.berdin@my.jru.edu</span></li>
+          <li><strong>Stephane Aira G. Cayetano</strong><span>stephaneaira.cayetano@my.jru.edu</span></li>
+          <li class="is-me"><strong>Miggy G. Rivera (Me)</strong><span>miggy.rivera@my.jru.edu</span></li>
+          <li><strong>Joshua Cyron S. Santos</strong><span>joshuacyron.santos@my.jru.edu</span></li>
+        </ul>
+      </div>
+
+      <div class="sub-block">
+        <p class="sub-label">Project Deliverables &amp; Documentation</p>
+        <div class="doc-list" id="projectDocs"></div>
+      </div>
+    </section>
+
+    <!-- COURSEWORK ARCHIVE -->
+    <section id="coursework" class="home-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">02 · Coursework Archive</p>
+          <h2>Prelims, Midterms &amp; Finals</h2>
+        </div>
+        <span class="muted count-readout" id="visibleCount">Showing 36 items</span>
+      </div>
+
+      <div class="controls-bar">
+        <div class="term-tabs" role="tablist" aria-label="Filter by term">
+          <button type="button" class="tab-btn is-active" data-term="all" role="tab" aria-selected="true">All Terms</button>
+          <button type="button" class="tab-btn" data-term="prelim" role="tab" aria-selected="false">Prelim</button>
+          <button type="button" class="tab-btn" data-term="midterm" role="tab" aria-selected="false">Midterm</button>
+          <button type="button" class="tab-btn" data-term="final" role="tab" aria-selected="false">Final</button>
+        </div>
+
+        <div class="category-pills" aria-label="Filter by category">
+          <button type="button" class="pill-btn is-active" data-cat="all">All</button>
+          <button type="button" class="pill-btn" data-cat="activity">Activities &amp; Labs</button>
+          <button type="button" class="pill-btn" data-cat="pt">Performance Tasks</button>
+          <button type="button" class="pill-btn" data-cat="quiz">Quizzes</button>
+          <button type="button" class="pill-btn" data-cat="group">Group Work</button>
+          <button type="button" class="pill-btn" data-cat="exam">Exams</button>
+        </div>
+      </div>
+
+      <div id="prelim" class="term-group" data-term-section="prelim">
+        <div class="term-header">
+          <p class="eyebrow">Term 01 · Weeks 1–6</p>
+          <h3>Prelim Activities, Quizzes &amp; Tasks</h3>
+        </div>
+        <div class="card-stack" data-term-list="prelim"></div>
+      </div>
+
+      <div id="midterm" class="term-group" data-term-section="midterm">
+        <div class="term-header">
+          <p class="eyebrow">Term 02 · Weeks 7–12</p>
+          <h3>Midterm Activities, Quizzes &amp; Tasks</h3>
+        </div>
+        <div class="card-stack" data-term-list="midterm"></div>
+      </div>
+
+      <div id="final" class="term-group" data-term-section="final">
+        <div class="term-header">
+          <p class="eyebrow">Term 03 · Weeks 14–18</p>
+          <h3>Final Term Outputs &amp; Examinations</h3>
+        </div>
+        <div class="card-stack" data-term-list="final"></div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>Miggy G. Rivera · BSIT 302I · ITC C301 Integrative Programming and Technologies 1 · Jose Rizal University</p>
+      <p class="muted">
+        <a href="https://www.miggyrivera.tech/" target="_blank" rel="noopener">miggyrivera.tech</a> ·
+        <a href="https://github.com/migsrvr" target="_blank" rel="noopener">github.com/migsrvr</a> ·
+        <a href="mailto:rivera.dev.miggy@gmail.com">rivera.dev.miggy@gmail.com</a>
+      </p>
+    </footer>
+  </main>
+
+  <!-- Screenshot Lightbox Modal -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview" hidden>
+    <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close preview">×</button>
+    <figure class="lightbox-frame">
+      <img id="lightboxImg" src="" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
